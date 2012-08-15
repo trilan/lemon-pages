@@ -2,11 +2,16 @@ from django.conf import settings
 from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import ungettext
 
-from lemon import extradmin
 from publications.admin import PublicationAdmin
 
 from .forms import PageAdminForm
 from .models import Page
+
+
+if 'lemon.extradmin' in settings.INSTALLED_APPS:
+    from lemon import extradmin as admin
+else:
+    from django.contrib import admin
 
 
 if 'metadata' in settings.INSTALLED_APPS:
@@ -46,7 +51,7 @@ class PageAdmin(MetadataAdminMixin, PublicationAdmin):
     tabs = True
 
 
-extradmin.site.register(Page, PageAdmin)
+admin.site.register(Page, PageAdmin)
 
 if 'metadata' in settings.INSTALLED_APPS:
     metadata.site.register(Page,
