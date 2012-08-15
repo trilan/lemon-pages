@@ -1,0 +1,93 @@
+# This file is distributed under the same license as the lemon-pages package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lemon-pages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-15 10:31+0400\n"
+"PO-Revision-Date: 2011-03-31 18:56+0400\n"
+"Last-Translator: Mike Yumatov <mike@yumatov.org>\n"
+"Language-Team: Russian <lemon@trilandev.com>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: admin.py:38 admin.py:42
+msgid "Add page"
+msgstr "Добавить текстовую страницу"
+
+#: admin.py:39
+msgid "Change page"
+msgstr "Изменить текстовую страницу"
+
+#: admin.py:40
+msgid "Choose page to change"
+msgstr "Выберите текстовую страницу для изменения"
+
+#: admin.py:41
+msgid "Choose page"
+msgstr "Выберите текстовую страницу"
+
+#: admin.py:44
+#, python-format
+msgid "%(count)d page"
+msgid_plural "%(count)d pages"
+msgstr[0] "%(count)d текстовая страница"
+msgstr[1] "%(count)d текстовые страницы"
+msgstr[2] "%(count)d текстовых страниц"
+
+#: forms.py:13 models.py:22
+msgid "URL path"
+msgstr "URL-путь"
+
+#: forms.py:18
+msgid ""
+"Enter a valid URL path beginning with slash and consisting of letters, "
+"numbers, underscores, slashes or hyphens."
+msgstr ""
+"Введите корректный URL-путь, начинающийся со слеша и состоящий из букв, "
+"цифр, символов подчеркивания, слешей и тире."
+
+#: forms.py:24
+msgid "Template"
+msgstr "Шаблон"
+
+#: forms.py:28
+msgid "Please create template for pages"
+msgstr "Создайте шаблон для отображения текстовых страниц"
+
+#: forms.py:50
+#, python-format
+msgid "Page %s already exists for some of selected sites and language"
+msgstr "Страница %s уже существует для ряда выбранных сайтов и языка"
+
+#: models.py:14
+msgid "sites"
+msgstr "сайты"
+
+#: models.py:16
+msgid "language"
+msgstr "язык"
+
+#: models.py:23
+msgid "title"
+msgstr "заголовок"
+
+#: models.py:24
+msgid "content"
+msgstr "содержимое"
+
+#: models.py:25
+msgid "template"
+msgstr "шаблон"
+
+#: models.py:29
+msgid "text page"
+msgstr "текстовая страница"
+
+#: models.py:30
+msgid "text pages"
+msgstr "текстовые страницы"
