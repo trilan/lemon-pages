@@ -105,7 +105,7 @@ TEMPLATE_DIRS = (
 )
 
 INSTALLED_APPS = (
-    'lemon.extradmin',
+    'lemon',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
