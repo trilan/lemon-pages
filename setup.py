@@ -10,7 +10,7 @@ def read(filename):
 
 setup(
     name='lemon-pages',
-    version='0.1',
+    version='0.1.1',
     license='ISC',
     description='Multilingual flat HTML pages app for Django',
     long_description=read('README.rst'),
@@ -20,6 +20,7 @@ setup(
     packages=find_packages(exclude=['tests', 'tests.*']),
     include_package_data=True,
     install_requires=[
+        'django-sitesutils',
         'lemon-publications',
     ],
     classifiers=[
