@@ -3,8 +3,8 @@ from django.shortcuts import get_object_or_404, render
 from django.utils.translation import get_language
 from django.views.decorators.csrf import csrf_protect
 
+from sitesutils.helpers import get_site_id
 from .models import Page
-from .utils import get_site_id
 
 
 @csrf_protect
