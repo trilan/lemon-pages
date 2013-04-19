@@ -1,5 +1,4 @@
 Django
 Lemon
-South
--e git+https://github.com/trilan/lemon-metadata@develop#egg=lemon-metadata
--e git+https://github.com/trilan/lemon-publications@develop#egg=lemon-publications
+lemon-metadata
+lemon-publications

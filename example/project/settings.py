@@ -114,7 +114,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'intellipages',
-    'south',
     'metadata',
     'publications',
     'pages',
